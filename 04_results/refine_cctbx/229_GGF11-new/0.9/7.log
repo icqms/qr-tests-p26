@@ -1,0 +1,313 @@
+phenix.python
+you are importing  adaptive calculator, and it does nothing. Please give it energy, force....... 
+
+============================== Collecting inputs ==============================
+
+
+                   ----------Processing X-ray data----------                   
+
+F-obs:
+  /scratch/m_zhen01/30995.lupus.uni-muenster.de/p26/02_mtz/229_GGF11-new.mtz:F-obs
+Miller array info: None
+Observation type: xray.amplitude
+Type of data: double, size=190
+Type of sigmas: None
+Number of Miller indices: 190
+Anomalous flag: False
+Unit cell: (13.283, 13.75, 10.689, 90, 90, 90)
+Space group: P 1 (No. 1)
+Systematic absences: 0
+Centric reflections: 0
+Resolution range: 3.98506 2.53401
+Completeness in resolution range: 1
+Completeness with d_max=infinity: 0.736434
+
+Number of F-obs in resolution range:                   190
+Number of F-obs<0 (these reflections will be rejected): 0
+Number of F-obs=0 (these reflections will be used in refinement): 0
+Refinement resolution range: d_max =   3.9851
+                             d_min =   2.5340
+
+R-free flags:
+  /scratch/m_zhen01/30995.lupus.uni-muenster.de/p26/02_mtz/229_GGF11-new.mtz:R-free-flags
+Miller array info: /scratch/m_zhen01/30995.lupus.uni-muenster.de/p26/02_mtz/229_GGF11-new.mtz:R-free-flags
+Observation type: None
+Type of data: int, size=190
+Type of sigmas: None
+Number of Miller indices: 190
+Anomalous flag: False
+Unit cell: (13.283, 13.75, 10.689, 90, 90, 90)
+Space group: P 1 (No. 1)
+Systematic absences: 0
+Centric reflections: 0
+Resolution range: 3.98506 2.53401
+Completeness in resolution range: 1
+Completeness with d_max=infinity: 0.736434
+Wavelength: 1.0000
+
+Test (R-free flags) flag value: 1
+
+Number of work/free reflections by resolution:
+                                  work free  %free
+  bin  1: 3.9851 - 3.6618 [12/12]    8    4  33.3%
+  bin  2: 3.6618 - 3.4230 [20/20]   20    0   0.0%
+  bin  3: 3.4230 - 3.2364 [19/19]   19    0   0.0%
+  bin  4: 3.2364 - 3.0849 [18/18]   18    0   0.0%
+  bin  5: 3.0849 - 2.9582 [24/24]   24    0   0.0%
+  bin  6: 2.9582 - 2.8501 [14/14]   14    0   0.0%
+  bin  7: 2.8501 - 2.7562 [14/14]   10    4  28.6%
+  bin  8: 2.7562 - 2.6736 [19/19]   19    0   0.0%
+  bin  9: 2.6736 - 2.6001 [30/30]   30    0   0.0%
+  bin 10: 2.6001 - 2.5340 [20/20]   20    0   0.0%
+                          overall  182    8   4.2%
+
+                   ----------Processing PDB file(s)----------                  
+
+  Monomer Library directory:
+    "/tmp1/m_zhen01/phenix-installer-1.10.1-2155-intel-linux-2.6-x86_64-centos5/phenix-1.10.1-2155/modules/chem_data/mon_lib"
+  Total number of atoms: 37
+  Number of models: 1
+  Model: ""
+    Number of chains: 1
+    Chain: "A"
+      Number of atoms: 37
+      Number of conformers: 1
+      Conformer: ""
+        Number of residues, atoms: 3, 37
+          Classifications: {'peptide': 3}
+          Modifications used: {'NH2NOTPRO': 1, 'COOH': 1}
+          Link IDs: {'TRANS': 2}
+  Time building chain proxies: 0.06, per 1000 atoms: 1.62
+  Number of scatterers: 37
+  At special positions: 0
+  Unit cell: (13.283, 13.75, 10.689, 90, 90, 90)
+  Space group: P 1 (No. 1)
+  Number of sites at special positions: 0
+  Number of scattering types: 4
+    Type Number    sf(0)
+     O       4      8.00
+     N       3      7.00
+     C      13      6.00
+     H      17      1.00
+    sf(0) = scattering factor at diffraction angle 0.
+
+  Number of disulfides: simple=0, symmetry=0
+
+  Automatic linking
+    Parameters for automatic linking
+      Linking & cutoffs
+        Metal                : False - 3.50
+        Amimo acid           : False - 1.90
+        Carbohydrate         : True  - 1.99
+        Ligands              : True  - 1.99
+        Amino acid - RNA/DNA : False
+      
+  Number of custom bonds: simple=0, symmetry=0
+  Time building additional restraints: 0.02
+  Conformation dependent library (CDL) restraints added in 2.5 milliseconds
+  
+  Adding C-beta torsion restraints...
+  Number of C-beta restraints generated:  2
+  Time building geometry restraints manager: 0.03 seconds
+
+  NOTE: a complete listing of the restraints can be obtained by requesting
+        output of .geo file.
+
+  Histogram of bond lengths:
+        0.85 -     0.99: 15
+        0.99 -     1.13: 2
+        1.13 -     1.27: 3
+        1.27 -     1.41: 9
+        1.41 -     1.55: 8
+  Bond restraints: 37
+  Sorted by residual:
+  bond pdb=" CA  GLY A   2 "
+       pdb=" HA1 GLY A   2 "
+    ideal  model  delta    sigma   weight residual
+    0.970  0.922  0.048 2.00e-02 2.50e+03 5.76e+00
+  bond pdb=" CA  GLY A   1 "
+       pdb=" HA1 GLY A   1 "
+    ideal  model  delta    sigma   weight residual
+    0.970  1.016 -0.046 2.00e-02 2.50e+03 5.21e+00
+  bond pdb=" CA  GLY A   2 "
+       pdb=" HA2 GLY A   2 "
+    ideal  model  delta    sigma   weight residual
+    0.970  0.929  0.041 2.00e-02 2.50e+03 4.11e+00
+  bond pdb=" CA  PHE A   3 "
+       pdb=" HA  PHE A   3 "
+    ideal  model  delta    sigma   weight residual
+    0.970  1.010 -0.040 2.00e-02 2.50e+03 3.98e+00
+  bond pdb=" CB  PHE A   3 "
+       pdb=" CG  PHE A   3 "
+    ideal  model  delta    sigma   weight residual
+    1.502  1.547 -0.045 2.30e-02 1.89e+03 3.80e+00
+  ... (remaining 32 not shown)
+
+  Histogram of bond angle deviations from ideal:
+      105.23 -   109.24: 14
+      109.24 -   113.25: 11
+      113.25 -   117.26: 7
+      117.26 -   121.28: 19
+      121.28 -   125.29: 9
+  Bond angle restraints: 60
+  Sorted by residual:
+  angle pdb=" HA1 GLY A   1 "
+        pdb=" CA  GLY A   1 "
+        pdb=" N   GLY A   1 "
+      ideal   model   delta    sigma   weight residual
+     110.00  116.86   -6.86 3.00e+00 1.11e-01 5.23e+00
+  angle pdb=" CA  PHE A   3 "
+        pdb=" CB  PHE A   3 "
+        pdb=" CG  PHE A   3 "
+      ideal   model   delta    sigma   weight residual
+     113.80  115.58   -1.78 1.00e+00 1.00e+00 3.18e+00
+  angle pdb=" CD1 PHE A   3 "
+        pdb=" CG  PHE A   3 "
+        pdb=" CD2 PHE A   3 "
+      ideal   model   delta    sigma   weight residual
+     118.60  116.19    2.41 1.50e+00 4.44e-01 2.58e+00
+  angle pdb=" HB1 PHE A   3 "
+        pdb=" CB  PHE A   3 "
+        pdb=" HB2 PHE A   3 "
+      ideal   model   delta    sigma   weight residual
+     110.00  105.28    4.72 3.00e+00 1.11e-01 2.47e+00
+  angle pdb=" C   PHE A   3 "
+        pdb=" CA  PHE A   3 "
+        pdb=" CB  PHE A   3 "
+      ideal   model   delta    sigma   weight residual
+     110.10  113.05   -2.95 1.90e+00 2.77e-01 2.41e+00
+  ... (remaining 55 not shown)
+
+  Histogram of dihedral angle deviations from ideal:
+        0.34 -    35.86: 11
+       35.86 -    71.37: 0
+       71.37 -   106.89: 1
+      106.89 -   142.40: 0
+      142.40 -   177.92: 1
+  Dihedral angle restraints: 13
+    sinusoidal: 3
+      harmonic: 10
+  Sorted by residual:
+  dihedral pdb=" O   PHE A   3 "
+           pdb=" C   PHE A   3 "
+           pdb=" OXT PHE A   3 "
+           pdb=" HXT PHE A   3 "
+      ideal   model   delta  harmonic     sigma   weight residual
+       0.00  177.92 -177.92     0      3.00e+01 1.11e-03 3.52e+01
+  dihedral pdb=" OXT PHE A   3 "
+           pdb=" C   PHE A   3 "
+           pdb=" CA  PHE A   3 "
+           pdb=" N   PHE A   3 "
+      ideal   model   delta sinusoidal    sigma   weight residual
+     160.00   82.83   77.17     2      3.00e+01 1.11e-03 5.07e+00
+  dihedral pdb=" CA  GLY A   1 "
+           pdb=" C   GLY A   1 "
+           pdb=" N   GLY A   2 "
+           pdb=" CA  GLY A   2 "
+      ideal   model   delta  harmonic     sigma   weight residual
+     180.00  170.38    9.62     0      5.00e+00 4.00e-02 3.70e+00
+  ... (remaining 10 not shown)
+
+  Histogram of chiral volume deviations from ideal:
+       0.120 -    0.120: 1
+       0.120 -    0.120: 0
+       0.120 -    0.120: 0
+       0.120 -    0.120: 0
+       0.120 -    0.120: 0
+  Chirality restraints: 1
+  Sorted by residual:
+  chirality pdb=" CA  PHE A   3 "
+            pdb=" C   PHE A   3 "
+            pdb=" N   PHE A   3 "
+            pdb=" CB  PHE A   3 "
+    both_signs  ideal   model   delta    sigma   weight residual
+      False     -2.51   -2.39   -0.12 2.00e-01 2.50e+01 3.60e-01
+
+  Planarity restraints: 6
+  Sorted by residual:
+                                 delta    sigma   weight rms_deltas residual
+  plane pdb=" CB  PHE A   3 "   -0.032 2.00e-02 2.50e+03   1.59e-02 7.54e+00
+        pdb=" CG  PHE A   3 "    0.017 2.00e-02 2.50e+03
+        pdb=" CD1 PHE A   3 "   -0.001 2.00e-02 2.50e+03
+        pdb=" HD1 PHE A   3 "    0.014 2.00e-02 2.50e+03
+        pdb=" CE1 PHE A   3 "    0.026 2.00e-02 2.50e+03
+        pdb=" HE1 PHE A   3 "   -0.022 2.00e-02 2.50e+03
+        pdb=" CZ  PHE A   3 "    0.000 2.00e-02 2.50e+03
+        pdb=" HZ  PHE A   3 "   -0.015 2.00e-02 2.50e+03
+        pdb=" CE2 PHE A   3 "    0.006 2.00e-02 2.50e+03
+        pdb=" HE2 PHE A   3 "   -0.005 2.00e-02 2.50e+03
+        pdb=" CD2 PHE A   3 "    0.008 2.00e-02 2.50e+03
+        pdb=" HD2 PHE A   3 "    0.004 2.00e-02 2.50e+03
+                                 delta    sigma   weight rms_deltas residual
+  plane pdb=" O   PHE A   3 "   -0.010 2.00e-02 2.50e+03   1.34e-02 2.24e+00
+        pdb=" C   PHE A   3 "    0.026 2.00e-02 2.50e+03
+        pdb=" OXT PHE A   3 "   -0.008 2.00e-02 2.50e+03
+        pdb=" HXT PHE A   3 "   -0.001 2.00e-02 2.50e+03
+        pdb=" CA  PHE A   3 "   -0.007 2.00e-02 2.50e+03
+                                 delta    sigma   weight rms_deltas residual
+  plane pdb=" C   GLY A   1 "   -0.005 2.00e-02 2.50e+03   9.34e-03 8.72e-01
+        pdb=" CA  GLY A   2 "   -0.004 2.00e-02 2.50e+03
+        pdb=" N   GLY A   2 "    0.016 2.00e-02 2.50e+03
+        pdb=" H   GLY A   2 "   -0.007 2.00e-02 2.50e+03
+  ... (remaining 3 not shown)
+
+  Histogram of nonbonded interaction distances:
+        2.13 -     2.68: 36
+        2.68 -     3.24: 64
+        3.24 -     3.79: 52
+        3.79 -     4.34: 72
+        4.34 -     4.89: 75
+  Nonbonded interactions: 299
+  Sorted by model distance:
+  nonbonded pdb=" H1  GLY A   1 "
+            pdb=" HE2 PHE A   3 "
+     model   vdw
+     2.132 2.100
+  nonbonded pdb=" HXT PHE A   3 "
+            pdb=" HA  PHE A   3 "
+     model   vdw
+     2.137 2.270
+  nonbonded pdb=" HA1 GLY A   2 "
+            pdb=" H   GLY A   2 "
+     model   vdw
+     2.149 1.816
+  nonbonded pdb=" HA2 GLY A   1 "
+            pdb=" H2  GLY A   1 "
+     model   vdw
+     2.207 1.816
+  nonbonded pdb=" HA2 GLY A   1 "
+            pdb=" H1  GLY A   1 "
+     model   vdw
+     2.208 1.816
+  ... (remaining 294 not shown)
+
+  NOTE: a complete listing of the restraints can be obtained by requesting
+        output of .geo file.
+
+                   ----------xray_structure summary----------                  
+
+Number of scattering types: 4
+  Type Number    sf(0)   Gaussians
+   O       4      7.97       2
+   N       3      6.97       2
+   C      13      5.97       2
+   H      17      1.00       2
+  sf(0) = scattering factor at diffraction angle 0.
+Number of scatterers: 37
+At special positions: 0
+Unit cell: (13.283, 13.75, 10.689, 90, 90, 90)
+Space group: P 1 (No. 1)
+
+End of input processing
+r_work=0.4863 r_free=0.5219
+params.data_weight: None
+params.restraints: cctbx
+rmsd(b), start:  0.0900
+mc:   0 R: 0.3522 rmsd(b):  0.0549 restraint_scale:  2.0 min_steps: 53
+mc:   1 R: 0.0678 rmsd(b):  0.0229 restraint_scale:  2.0 min_steps: 39
+mc:   2 R: 0.0126 rmsd(b):  0.0121 restraint_scale:  2.0 min_steps: 46
+mc:   3 R: 0.0093 rmsd(b):  0.0385 restraint_scale:  4.0 min_steps: 16
+mc:   4 R: 0.0093 rmsd(b):  0.0355 restraint_scale:  8.0 min_steps: 12
+Convergence reached, stop now.
+see the result structure:  ./p26/04_results/refine_cctbx/229_GGF11-new/0.9/7.pdb
+Time: 5.9707
