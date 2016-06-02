@@ -29,6 +29,7 @@ def run():
             "temperature=1000",
             "write_geo_file=False",
             "random_seed=%s"%str(rs),
+	   "use_neutron_distances=true",	
             "output_file_name_prefix=%s"%str(trial),
             "> %s.log"%prefix])
           easy_run.call(cmd)
